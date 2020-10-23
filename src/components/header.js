@@ -19,13 +19,13 @@ const Header = ({ siteTitle }) => (
         />
       </Link>
       <Link to="https://www.facebook.com/VioletFilterCo/">
-        <FontAwesomeIcon icon={faFacebook} size="1x" />
+        <FontAwesomeIcon icon={faFacebook} size="2x" />
       </Link>
       <Link to="https://twitter.com/VioletFilterCo">
-        <FontAwesomeIcon icon={faTwitter} size="1x" />
+        <FontAwesomeIcon icon={faTwitter} size="2x" />
       </Link>
       <Link to="https://www.instagram.com/violetfilterco/">
-        <FontAwesomeIcon icon={faInstagram} size="1x" />
+        <FontAwesomeIcon icon={faInstagram} size="2x" />
       </Link>
       <Link to="/about">About</Link>
     </div>

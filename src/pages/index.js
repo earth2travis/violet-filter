@@ -9,8 +9,10 @@ function IndexPage() {
       <SEO title="Home" />
       <div className="Hero">
         <div className="HeroGroup">
-          <img src="/images/logos/logo.svg" alt="logo" />
-          <h1>Violet Filter Company</h1>
+          <h1>
+            The <br />
+            Violet Filter Company
+          </h1>
           <p>LED Filtration Systems</p>
           <Link to="/page-2/">Stay Informed</Link> <br />
         </div>

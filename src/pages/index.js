@@ -7,10 +7,14 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
-      <img src="/images/logos/logo.svg" alt="logo" />
-      <h1>Hi people</h1>
-      <p>Welcome to your new Gatsby site.</p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
+      <div className="Hero">
+        <div className="HeroGroup">
+          <img src="/images/logos/logo.svg" alt="logo" />
+          <h1>Violet Filter Company</h1>
+          <p>LED Filtration Systems</p>
+          <Link to="/page-2/">Stay Informed</Link> <br />
+        </div>
+      </div>
     </Layout>
   )
 }

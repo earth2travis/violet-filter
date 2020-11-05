@@ -10,11 +10,10 @@ function IndexPage() {
       <div className="Hero">
         <div className="HeroGroup">
           <h1>
-            The <br />
             Violet Filter <br />
             Company
           </h1>
-          <p>LED Filtration Systems</p>
+          <p>LED home air purification systems</p>
           <Link to="/page-2/">Stay Informed</Link> <br />
         </div>
       </div>

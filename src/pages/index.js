@@ -11,7 +11,8 @@ function IndexPage() {
         <div className="HeroGroup">
           <h1>
             The <br />
-            Violet Filter Company
+            Violet Filter <br />
+            Company
           </h1>
           <p>LED Filtration Systems</p>
           <Link to="/page-2/">Stay Informed</Link> <br />

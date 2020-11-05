@@ -28,6 +28,7 @@ const Header = ({ siteTitle }) => (
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </Link>
       <Link to="/about">About</Link>
+      <button>Sign Up</button>
     </div>
   </div>
 )

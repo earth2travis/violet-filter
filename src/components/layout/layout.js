@@ -1,10 +1,11 @@
 import React from "react"
-import Header from "../Header"
+import Header from "../header"
 import "./layout.css"
 
 function Layout({ children }) {
   return (
     <>
+      <Header />
       <main>{children}</main>
     </>
   )

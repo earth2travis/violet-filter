@@ -12,8 +12,8 @@ const Header = ({ siteTitle }) => (
           alt=""
         />
       </Link>
-      <Link to="#">Products</Link>
       <Link to="#">Technology</Link>
+      <Link to="#">Research</Link>
       <Link to="#">Company</Link>
       <button>Pre-Order</button>
     </div>

@@ -7,6 +7,7 @@ import {
   faInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons"
+import Card from "../components/Card"
 
 function IndexPage() {
   return (
@@ -55,6 +56,26 @@ function IndexPage() {
               />
             </path>
           </svg>
+        </div>
+        <div className="Cards">
+          <h2>Household Benefits</h2>
+          <div className="CardGroup">
+            <Card
+              title="Virus Inactivation"
+              text="View research"
+              image={require("../images/wallpaper.jpg")}
+            />
+            <Card
+              title="Allergen Reduction"
+              text="View research"
+              image={require("../images/wallpaper2.jpg")}
+            />
+            <Card
+              title="Odor Removal"
+              text="View research"
+              image={require("../images/wallpaper3.jpg")}
+            />
+          </div>
         </div>
       </div>
     </Layout>

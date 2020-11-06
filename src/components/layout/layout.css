@@ -109,5 +109,30 @@ a {
   color: #55ccf2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 720px) {
+  .Cards {
+    padding-top: 150px;
+  }
+}
+
+.Cards h2 {
+  margin: 50px 20px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 720px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

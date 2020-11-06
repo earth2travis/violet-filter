@@ -15,10 +15,11 @@ function IndexPage() {
       <div className="Hero">
         <div className="HeroGroup">
           <h1>
+            The <br />
             Violet Filter <br />
             Company
           </h1>
-          <p>LED home air purification systems</p>
+          <p>Keep your family safe with LED home air purification</p>
           <button>Stay Informed</button>
           <div className="Logos">
             <a href="https://www.facebook.com/VioletFilterCo/">
